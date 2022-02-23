@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
 
   hive: ^2.0.6
-    path: ../hive
+    git:
+      url: git@github.com:gathrtech/hive.git
+      path: hive
+      ref: master
   path_provider: ^2.0.2
   path: ^1.8.0
 
